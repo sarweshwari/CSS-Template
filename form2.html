@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-family: sans-serif;
+        }
+        body{
+           
+            background-image: linear-gradient(to right, rgb(72, 124, 169), rgb(179, 123, 231));
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            margin:100px;
+            /* background-color: white;  */
+          
+        }
+        .formBox{
+            background-color: white;
+            padding:40px;
+            
+
+        }
+        [type="submit"]{
+            width: 100%;
+            background-color:rgb(179, 123, 231)
+        }
+        input {
+            width: 250px;
+            padding: 10px;
+            margin: 5px 0px;
+        }
+        h5{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color:skyblue;
+        }
+        h3{
+            margin-top: 1px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .bi{
+            font-size: 25px;
+            margin-top: 1px;
+            margin-left: 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="formBox">
+            <i class="bi bi-x"></i>
+            <h3>Login Form</h3>
+            <form action="">
+                <div class="inputBox">
+                    <lable>Email or Phone</lable><br>
+                    <input type="text" placeholder="Enter Email or Phone" >
+                </div>
+                <div class="inputBox">
+                    <lable>Password</lable><br>
+                    <input type="text" placeholder="Enter Password" >
+                </div>
+                <h5>Forgot Password ?</h5>
+                <input type="submit" value="Login">
+                <h5>Not a member?<a href="">SignUp now</a></h5>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

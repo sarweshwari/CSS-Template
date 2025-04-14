@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: powderblue;
+            background-image: linear-gradient(to left,rgb(206, 106, 198),rgb(148, 58, 196));
+            background-size: cover;
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        section {
+
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+          
+           
+        }
+
+        .formBox {
+            background-color: white;
+            padding: 60px;
+           
+            
+        }
+
+        input {
+            margin: 5px 0px;
+            width: 400px;
+            padding:5px;
+        }
+
+        select {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 20px;
+
+        }
+
+        h3 {
+            color: #046565;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        [type="submit"] {
+            width: 100%;
+            height:30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="formBox">
+            <h3>Signup Form</h3>
+            <form action="">
+                <div class="inputBox">
+                    <label>Full name</label><br>
+                    <input type="text" placeholder="Enter your full name">
+                </div>
+                <div class="inputBox">
+                    <label>Email Address</label><br>
+                    <input type="text" placeholder="Enter your email address">
+                </div>
+                <div class="inputBox">
+                    <label>Password</label><br>
+                    <input type="text" id="pass" placeholder="Enter your password">
+                </div>
+                <div class="inputBox">
+                    <label>Birth Date</label><br>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <label>Gender</label><br>
+                    <select name="" id="">
+
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </div>
+                <input type="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
